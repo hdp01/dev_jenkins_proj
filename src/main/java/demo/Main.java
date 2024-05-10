@@ -1,7 +1,7 @@
 package demo;
 
 public class Main {
-    public int sum(int a, int b) {
+    public int add(int a, int b) {
         return a+b;
     }
     public int sub(int a, int b) {
@@ -15,9 +15,9 @@ public class Main {
     }
     public static void main(String[] args) {
         Main m = new Main();
-        System.out.println("Sum is: "+m.sum(20, 10));
-        System.out.println("Sub is: "+m.sub(20, 10));
-        System.out.println("mul is: "+m.mul(20, 10));
-        System.out.println("div is: "+m.div(20, 10));
+        System.out.println("addition is: "+m.add(5, 10));
+        System.out.println("Subtraction is: "+m.sub(5, 10));
+        System.out.println("multiplication is: "+m.mul(5, 10));
+        System.out.println("division is: "+m.div(5, 10));
     }
 }
