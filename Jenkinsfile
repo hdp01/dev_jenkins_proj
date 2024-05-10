@@ -33,7 +33,7 @@ pipeline
             }
         }
 
-        stage('Clean Stage')
+        stage('Success Stage')
         {
             steps
             {
